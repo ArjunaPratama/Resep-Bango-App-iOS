@@ -1,0 +1,6 @@
+framework module Pods_Resep_Bango_App_iOSUITests {
+  umbrella header "Pods-Resep Bango App iOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
