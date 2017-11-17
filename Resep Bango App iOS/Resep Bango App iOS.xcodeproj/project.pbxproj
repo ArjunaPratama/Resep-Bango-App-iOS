@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184C2FF23EF49BC8AE6C2695 /* Pods_Resep_Bango_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1791A343048BC2B21F265236 /* Pods_Resep_Bango_App_iOS.framework */; };
+		3FBDB81D78F5E263126F7E8B /* Pods_Resep_Bango_App_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF80A7B37AEBA78F36433B6 /* Pods_Resep_Bango_App_iOSUITests.framework */; };
+		CFC4DAB44D56CA8ECFD1E5E5 /* Pods_Resep_Bango_App_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28673AE49EBC0E6F31AB8850 /* Pods_Resep_Bango_App_iOSTests.framework */; };
+		DC4E28ED1FBEE4170059F848 /* DaftarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E28EC1FBEE4170059F848 /* DaftarViewController.swift */; };
+		DC4E28EF1FBEE4240059F848 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E28EE1FBEE4240059F848 /* LoginViewController.swift */; };
+		DC4E28F11FBEE8500059F848 /* BangoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E28F01FBEE8500059F848 /* BangoTableViewController.swift */; };
+		DC4E28F31FBEE8600059F848 /* BangoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E28F21FBEE8600059F848 /* BangoTableViewCell.swift */; };
+		DC72BD221FBEDD81001F7446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD211FBEDD81001F7446 /* AppDelegate.swift */; };
+		DC72BD241FBEDD81001F7446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD231FBEDD81001F7446 /* ViewController.swift */; };
+		DC72BD271FBEDD81001F7446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC72BD251FBEDD81001F7446 /* Main.storyboard */; };
+		DC72BD291FBEDD81001F7446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC72BD281FBEDD81001F7446 /* Assets.xcassets */; };
+		DC72BD2C1FBEDD81001F7446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC72BD2A1FBEDD81001F7446 /* LaunchScreen.storyboard */; };
+		DC72BD371FBEDD82001F7446 /* Resep_Bango_App_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD361FBEDD82001F7446 /* Resep_Bango_App_iOSTests.swift */; };
+		DC72BD421FBEDD82001F7446 /* Resep_Bango_App_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72BD411FBEDD82001F7446 /* Resep_Bango_App_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC72BD331FBEDD82001F7446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC72BD161FBEDD81001F7446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC72BD1D1FBEDD81001F7446;
+			remoteInfo = "Resep Bango App iOS";
+		};
+		DC72BD3E1FBEDD82001F7446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC72BD161FBEDD81001F7446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC72BD1D1FBEDD81001F7446;
+			remoteInfo = "Resep Bango App iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D465F75A134B8399B99A4F /* Pods-Resep Bango App iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resep Bango App iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resep Bango App iOSUITests/Pods-Resep Bango App iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1791A343048BC2B21F265236 /* Pods_Resep_Bango_App_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resep_Bango_App_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28673AE49EBC0E6F31AB8850 /* Pods_Resep_Bango_App_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resep_Bango_App_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF80A7B37AEBA78F36433B6 /* Pods_Resep_Bango_App_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resep_Bango_App_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E980C3452D96DEC79A798C3 /* Pods-Resep Bango App iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resep Bango App iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resep Bango App iOS/Pods-Resep Bango App iOS.release.xcconfig"; sourceTree = "<group>"; };
+		943C2F889010EA8768D110D6 /* Pods-Resep Bango App iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resep Bango App iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resep Bango App iOSUITests/Pods-Resep Bango App iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		980B452CDE36269DB53D74A6 /* Pods-Resep Bango App iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resep Bango App iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resep Bango App iOS/Pods-Resep Bango App iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A2B382E02280B4AEC53A1DAE /* Pods-Resep Bango App iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resep Bango App iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resep Bango App iOSTests/Pods-Resep Bango App iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4E28EC1FBEE4170059F848 /* DaftarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarViewController.swift; sourceTree = "<group>"; };
+		DC4E28EE1FBEE4240059F848 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC4E28F01FBEE8500059F848 /* BangoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoTableViewController.swift; sourceTree = "<group>"; };
+		DC4E28F21FBEE8600059F848 /* BangoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangoTableViewCell.swift; sourceTree = "<group>"; };
+		DC72BD1E1FBEDD81001F7446 /* Resep Bango App iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resep Bango App iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72BD211FBEDD81001F7446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC72BD231FBEDD81001F7446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC72BD261FBEDD81001F7446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC72BD281FBEDD81001F7446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC72BD2B1FBEDD81001F7446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC72BD2D1FBEDD81001F7446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC72BD321FBEDD82001F7446 /* Resep Bango App iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resep Bango App iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72BD361FBEDD82001F7446 /* Resep_Bango_App_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resep_Bango_App_iOSTests.swift; sourceTree = "<group>"; };
+		DC72BD381FBEDD82001F7446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC72BD3D1FBEDD82001F7446 /* Resep Bango App iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resep Bango App iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72BD411FBEDD82001F7446 /* Resep_Bango_App_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resep_Bango_App_iOSUITests.swift; sourceTree = "<group>"; };
+		DC72BD431FBEDD82001F7446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F62EDE6A3E0CB5976FDFA2 /* Pods-Resep Bango App iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resep Bango App iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resep Bango App iOSTests/Pods-Resep Bango App iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC72BD1B1FBEDD81001F7446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184C2FF23EF49BC8AE6C2695 /* Pods_Resep_Bango_App_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BD2F1FBEDD82001F7446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC4DAB44D56CA8ECFD1E5E5 /* Pods_Resep_Bango_App_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BD3A1FBEDD82001F7446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBDB81D78F5E263126F7E8B /* Pods_Resep_Bango_App_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D74148C9315D32B89CA4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1791A343048BC2B21F265236 /* Pods_Resep_Bango_App_iOS.framework */,
+				28673AE49EBC0E6F31AB8850 /* Pods_Resep_Bango_App_iOSTests.framework */,
+				2EF80A7B37AEBA78F36433B6 /* Pods_Resep_Bango_App_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		542B86AC1E1F165181974011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				980B452CDE36269DB53D74A6 /* Pods-Resep Bango App iOS.debug.xcconfig */,
+				7E980C3452D96DEC79A798C3 /* Pods-Resep Bango App iOS.release.xcconfig */,
+				A2B382E02280B4AEC53A1DAE /* Pods-Resep Bango App iOSTests.debug.xcconfig */,
+				F4F62EDE6A3E0CB5976FDFA2 /* Pods-Resep Bango App iOSTests.release.xcconfig */,
+				943C2F889010EA8768D110D6 /* Pods-Resep Bango App iOSUITests.debug.xcconfig */,
+				13D465F75A134B8399B99A4F /* Pods-Resep Bango App iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC72BD151FBEDD81001F7446 = {
+			isa = PBXGroup;
+			children = (
+				DC72BD201FBEDD81001F7446 /* Resep Bango App iOS */,
+				DC72BD351FBEDD82001F7446 /* Resep Bango App iOSTests */,
+				DC72BD401FBEDD82001F7446 /* Resep Bango App iOSUITests */,
+				DC72BD1F1FBEDD81001F7446 /* Products */,
+				542B86AC1E1F165181974011 /* Pods */,
+				14D74148C9315D32B89CA4C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC72BD1F1FBEDD81001F7446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BD1E1FBEDD81001F7446 /* Resep Bango App iOS.app */,
+				DC72BD321FBEDD82001F7446 /* Resep Bango App iOSTests.xctest */,
+				DC72BD3D1FBEDD82001F7446 /* Resep Bango App iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC72BD201FBEDD81001F7446 /* Resep Bango App iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BD211FBEDD81001F7446 /* AppDelegate.swift */,
+				DC72BD231FBEDD81001F7446 /* ViewController.swift */,
+				DC72BD251FBEDD81001F7446 /* Main.storyboard */,
+				DC72BD281FBEDD81001F7446 /* Assets.xcassets */,
+				DC72BD2A1FBEDD81001F7446 /* LaunchScreen.storyboard */,
+				DC72BD2D1FBEDD81001F7446 /* Info.plist */,
+				DC4E28EC1FBEE4170059F848 /* DaftarViewController.swift */,
+				DC4E28EE1FBEE4240059F848 /* LoginViewController.swift */,
+				DC4E28F01FBEE8500059F848 /* BangoTableViewController.swift */,
+				DC4E28F21FBEE8600059F848 /* BangoTableViewCell.swift */,
+			);
+			path = "Resep Bango App iOS";
+			sourceTree = "<group>";
+		};
+		DC72BD351FBEDD82001F7446 /* Resep Bango App iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BD361FBEDD82001F7446 /* Resep_Bango_App_iOSTests.swift */,
+				DC72BD381FBEDD82001F7446 /* Info.plist */,
+			);
+			path = "Resep Bango App iOSTests";
+			sourceTree = "<group>";
+		};
+		DC72BD401FBEDD82001F7446 /* Resep Bango App iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC72BD411FBEDD82001F7446 /* Resep_Bango_App_iOSUITests.swift */,
+				DC72BD431FBEDD82001F7446 /* Info.plist */,
+			);
+			path = "Resep Bango App iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC72BD1D1FBEDD81001F7446 /* Resep Bango App iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72BD461FBEDD82001F7446 /* Build configuration list for PBXNativeTarget "Resep Bango App iOS" */;
+			buildPhases = (
+				1CE69B8AA95A7EF2D9CFA495 /* [CP] Check Pods Manifest.lock */,
+				DC72BD1A1FBEDD81001F7446 /* Sources */,
+				DC72BD1B1FBEDD81001F7446 /* Frameworks */,
+				DC72BD1C1FBEDD81001F7446 /* Resources */,
+				B9BAB4B78FA3FBE40693CE23 /* [CP] Embed Pods Frameworks */,
+				62517387A6C35796CD201A13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resep Bango App iOS";
+			productName = "Resep Bango App iOS";
+			productReference = DC72BD1E1FBEDD81001F7446 /* Resep Bango App iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC72BD311FBEDD82001F7446 /* Resep Bango App iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72BD491FBEDD82001F7446 /* Build configuration list for PBXNativeTarget "Resep Bango App iOSTests" */;
+			buildPhases = (
+				DBA2AEFD6816F1AD7CD5A719 /* [CP] Check Pods Manifest.lock */,
+				DC72BD2E1FBEDD82001F7446 /* Sources */,
+				DC72BD2F1FBEDD82001F7446 /* Frameworks */,
+				DC72BD301FBEDD82001F7446 /* Resources */,
+				BE6B8CCC8D600B1F133177AB /* [CP] Embed Pods Frameworks */,
+				49277619099C2EBA1EA671A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC72BD341FBEDD82001F7446 /* PBXTargetDependency */,
+			);
+			name = "Resep Bango App iOSTests";
+			productName = "Resep Bango App iOSTests";
+			productReference = DC72BD321FBEDD82001F7446 /* Resep Bango App iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC72BD3C1FBEDD82001F7446 /* Resep Bango App iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72BD4C1FBEDD82001F7446 /* Build configuration list for PBXNativeTarget "Resep Bango App iOSUITests" */;
+			buildPhases = (
+				9019A5469764C96AEE33F2AE /* [CP] Check Pods Manifest.lock */,
+				DC72BD391FBEDD82001F7446 /* Sources */,
+				DC72BD3A1FBEDD82001F7446 /* Frameworks */,
+				DC72BD3B1FBEDD82001F7446 /* Resources */,
+				4A69E807D59C8916F0EC2DE0 /* [CP] Embed Pods Frameworks */,
+				8A2C77CE9222C88041372164 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC72BD3F1FBEDD82001F7446 /* PBXTargetDependency */,
+			);
+			name = "Resep Bango App iOSUITests";
+			productName = "Resep Bango App iOSUITests";
+			productReference = DC72BD3D1FBEDD82001F7446 /* Resep Bango App iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC72BD161FBEDD81001F7446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC72BD1D1FBEDD81001F7446 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DC72BD311FBEDD82001F7446 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC72BD1D1FBEDD81001F7446;
+					};
+					DC72BD3C1FBEDD82001F7446 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC72BD1D1FBEDD81001F7446;
+					};
+				};
+			};
+			buildConfigurationList = DC72BD191FBEDD81001F7446 /* Build configuration list for PBXProject "Resep Bango App iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC72BD151FBEDD81001F7446;
+			productRefGroup = DC72BD1F1FBEDD81001F7446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC72BD1D1FBEDD81001F7446 /* Resep Bango App iOS */,
+				DC72BD311FBEDD82001F7446 /* Resep Bango App iOSTests */,
+				DC72BD3C1FBEDD82001F7446 /* Resep Bango App iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC72BD1C1FBEDD81001F7446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72BD2C1FBEDD81001F7446 /* LaunchScreen.storyboard in Resources */,
+				DC72BD291FBEDD81001F7446 /* Assets.xcassets in Resources */,
+				DC72BD271FBEDD81001F7446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BD301FBEDD82001F7446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BD3B1FBEDD82001F7446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CE69B8AA95A7EF2D9CFA495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resep Bango App iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49277619099C2EBA1EA671A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resep Bango App iOSTests/Pods-Resep Bango App iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A69E807D59C8916F0EC2DE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resep Bango App iOSUITests/Pods-Resep Bango App iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62517387A6C35796CD201A13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resep Bango App iOS/Pods-Resep Bango App iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2C77CE9222C88041372164 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resep Bango App iOSUITests/Pods-Resep Bango App iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9019A5469764C96AEE33F2AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resep Bango App iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BAB4B78FA3FBE40693CE23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Resep Bango App iOS/Pods-Resep Bango App iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resep Bango App iOS/Pods-Resep Bango App iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6B8CCC8D600B1F133177AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resep Bango App iOSTests/Pods-Resep Bango App iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA2AEFD6816F1AD7CD5A719 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resep Bango App iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC72BD1A1FBEDD81001F7446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4E28F11FBEE8500059F848 /* BangoTableViewController.swift in Sources */,
+				DC4E28F31FBEE8600059F848 /* BangoTableViewCell.swift in Sources */,
+				DC4E28EF1FBEE4240059F848 /* LoginViewController.swift in Sources */,
+				DC72BD241FBEDD81001F7446 /* ViewController.swift in Sources */,
+				DC4E28ED1FBEE4170059F848 /* DaftarViewController.swift in Sources */,
+				DC72BD221FBEDD81001F7446 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BD2E1FBEDD82001F7446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72BD371FBEDD82001F7446 /* Resep_Bango_App_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72BD391FBEDD82001F7446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72BD421FBEDD82001F7446 /* Resep_Bango_App_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC72BD341FBEDD82001F7446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC72BD1D1FBEDD81001F7446 /* Resep Bango App iOS */;
+			targetProxy = DC72BD331FBEDD82001F7446 /* PBXContainerItemProxy */;
+		};
+		DC72BD3F1FBEDD82001F7446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC72BD1D1FBEDD81001F7446 /* Resep Bango App iOS */;
+			targetProxy = DC72BD3E1FBEDD82001F7446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC72BD251FBEDD81001F7446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72BD261FBEDD81001F7446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC72BD2A1FBEDD81001F7446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72BD2B1FBEDD81001F7446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC72BD441FBEDD82001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC72BD451FBEDD82001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC72BD471FBEDD82001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980B452CDE36269DB53D74A6 /* Pods-Resep Bango App iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Resep Bango App iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Resep-Bango-App-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC72BD481FBEDD82001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E980C3452D96DEC79A798C3 /* Pods-Resep Bango App iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Resep Bango App iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Resep-Bango-App-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC72BD4A1FBEDD82001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B382E02280B4AEC53A1DAE /* Pods-Resep Bango App iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Resep Bango App iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Resep-Bango-App-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resep Bango App iOS.app/Resep Bango App iOS";
+			};
+			name = Debug;
+		};
+		DC72BD4B1FBEDD82001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F62EDE6A3E0CB5976FDFA2 /* Pods-Resep Bango App iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Resep Bango App iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Resep-Bango-App-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resep Bango App iOS.app/Resep Bango App iOS";
+			};
+			name = Release;
+		};
+		DC72BD4D1FBEDD82001F7446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943C2F889010EA8768D110D6 /* Pods-Resep Bango App iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Resep Bango App iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Resep-Bango-App-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Resep Bango App iOS";
+			};
+			name = Debug;
+		};
+		DC72BD4E1FBEDD82001F7446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D465F75A134B8399B99A4F /* Pods-Resep Bango App iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Resep Bango App iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Resep-Bango-App-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Resep Bango App iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC72BD191FBEDD81001F7446 /* Build configuration list for PBXProject "Resep Bango App iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD441FBEDD82001F7446 /* Debug */,
+				DC72BD451FBEDD82001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC72BD461FBEDD82001F7446 /* Build configuration list for PBXNativeTarget "Resep Bango App iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD471FBEDD82001F7446 /* Debug */,
+				DC72BD481FBEDD82001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC72BD491FBEDD82001F7446 /* Build configuration list for PBXNativeTarget "Resep Bango App iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD4A1FBEDD82001F7446 /* Debug */,
+				DC72BD4B1FBEDD82001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC72BD4C1FBEDD82001F7446 /* Build configuration list for PBXNativeTarget "Resep Bango App iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72BD4D1FBEDD82001F7446 /* Debug */,
+				DC72BD4E1FBEDD82001F7446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC72BD161FBEDD81001F7446 /* Project object */;
+}
